@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: hwaseong-tennis-spring
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
