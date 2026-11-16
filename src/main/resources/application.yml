@@ -5,3 +5,8 @@ spring:
     hibernate:
       ddl-auto: validate
     show-sql: true
+
+tennis:
+  open-day: ${OPEN_DAY:27}
+  open-hour: ${OPEN_HOUR:10}
+  burst-duration-min: ${BURST_DURATION_MIN:60}
